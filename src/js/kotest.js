@@ -1,7 +1,7 @@
 (function(context, name, definition) {
     'use strict';
     if (typeof define === 'function' && typeof define.amd === 'object') {
-        define(['ko'], definition);
+        define(['knockout'], definition);
         return;
     }
     context[name] = definition(context.ko);
